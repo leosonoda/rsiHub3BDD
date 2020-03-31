@@ -5,10 +5,10 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class pesquisaPorLupa_Steps {
+public class consultarProdutoLupa_Steps {
 	
-	@Given("^estou na p?gina inicial$")
-	public void estou_na_p_gina_inicial() throws Throwable {
+	@Given("^estou na pagina inicial$")
+	public void estou_na_pagina_inicial() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
@@ -31,10 +31,20 @@ public class pesquisaPorLupa_Steps {
 	    throw new PendingException();
 	}
 
-	@Then("^exibe p?gina principal do produto$")
-	public void exibe_p_gina_principal_do_produto() throws Throwable {
+	@Then("^exibe pagina principal do produto$")
+	public void exibe_pagina_principal_do_produto() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
+
+	@Then("^exibe pagina de produto nao encontrado$")
+	public void exibe_pagina_de_produto_nao_encontrado() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+	
+	
 
 }
