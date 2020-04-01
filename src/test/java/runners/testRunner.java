@@ -10,7 +10,8 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(features = "src/test/resources/GherkinsCucumber", 
 glue={"steps"},
-snippets = SnippetType.CAMELCASE
+snippets = SnippetType.CAMELCASE,
+monochrome = true
 )
 
 public class testRunner {

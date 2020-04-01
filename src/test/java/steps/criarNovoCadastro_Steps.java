@@ -1,132 +1,135 @@
 package steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class criarNovoCadastro_Steps {
 	
-
-	@Given("^estou na pagina inicial$")
-	public void estou_na_pagina_inicial() throws Throwable {
+	@Given("^estou no site inicial$")
+	public void estouNoSiteInicial() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
-	
+
 	@When("^clico no menu login$")
-	public void clico_no_menu_login() throws Throwable {
+	public void clicoNoMenuLogin() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^clico no menu criacao de conta$")
-	public void clico_no_menu_criacao_de_conta() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo email$")
-	public void preencho_campo_email() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo senha$")
-	public void preencho_campo_senha() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo confirmacao de senha$")
-	public void preencho_campo_confirmacao_de_senha() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo nome$")
-	public void preencho_campo_nome() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo sobrenome$")
-	public void preencho_campo_sobrenome() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo telefone$")
-	public void preencho_campo_telefone() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^seleciono pais$")
-	public void seleciono_pais() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo cidade$")
-	public void preencho_campo_cidade() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo endereco$")
-	public void preencho_campo_endereco() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo estado$")
-	public void preencho_campo_estado() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo codigo postal$")
-	public void preencho_campo_codigo_postal() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^clico em aceitar termos$")
-	public void clico_em_aceitar_termos() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo usuario valido$")
-	public void preencho_campo_usuario_valido() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^clico no botao registrar$")
-	public void clico_no_botao_registrar() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@Then("^realiza cadastro com sucesso$")
-	public void realiza_cadastro_com_sucesso() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@When("^preencho campo usuario$")
-	public void preencho_campo_usuario() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-	
-	@Then("^sistema exibe informacao de username ja existente$")
-	public void sistema_exibe_informacao_de_username_ja_existente() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
+	@When("^clico no menu criacao de conta$")
+	public void clicoNoMenuCriacaoDeConta() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo email$")
+	public void preenchoCampoEmail() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo senha$")
+	public void preenchoCampoSenha() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo confirmacao de senha$")
+	public void preenchoCampoConfirmacaoDeSenha() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo nome$")
+	public void preenchoCampoNome() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo sobrenome$")
+	public void preenchoCampoSobrenome() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo telefone$")
+	public void preenchoCampoTelefone() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^seleciono pais$")
+	public void selecionoPais() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo cidade$")
+	public void preenchoCampoCidade() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo endereco$")
+	public void preenchoCampoEndereco() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo estado$")
+	public void preenchoCampoEstado() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo codigo postal$")
+	public void preenchoCampoCodigoPostal() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^clico em aceitar termos$")
+	public void clicoEmAceitarTermos() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo usuario valido$")
+	public void preenchoCampoUsuarioValido() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^clico no botao registrar$")
+	public void clicoNoBotaoRegistrar() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@Then("^realiza cadastro com sucesso$")
+	public void realizaCadastroComSucesso() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^preencho campo usuario ja existente$")
+	public void preenchoCampoUsuarioJaExistente() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@When("^clico no botao registrar com username repetido$")
+	public void clicoNoBotaoRegistrarComUsernameRepetido() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+	@Then("^sistema exibe informacao de username ja existente$")
+	public void sistemaExibeInformacaoDeUsernameJaExistente() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
 
 }

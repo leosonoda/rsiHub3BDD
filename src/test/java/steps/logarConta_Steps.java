@@ -1,59 +1,63 @@
 package steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class logarConta_Steps {
 	
-	@Given("^estou na pagina inicial$")
-	public void estou_na_pagina_inicial() throws Throwable {
+	@Given("^estou na home page do site$")
+	public void estouNaHomePageDoSite() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
-	@When("^clico no menu login$")
-	public void clico_no_menu_login() throws Throwable {
+	@When("^clico no menu para logar$")
+	public void clicoNoMenuParaLogar() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
-	@When("^preencho campo senha$")
-	public void preencho_campo_senha() throws Throwable {
+	@When("^preencho campo de password$")
+	public void preenchoCampoDePassword() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
-	@When("^preencho campo usuario$")
-	public void preencho_campo_usuario() throws Throwable {
+	@When("^preencho campo usuario correto$")
+	public void preenchoCampoUsuarioCorreto() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
 	@When("^clico no botao logar$")
-	public void clico_no_botao_logar() throws Throwable {
+	public void clicoNoBotaoLogar() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
 	@Then("^faco o login com sucesso$")
-	public void faco_o_login_com_sucesso() throws Throwable {
+	public void facoOLoginComSucesso() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
 	@When("^preencho campo usuario incorretamente$")
-	public void preencho_campo_usuario_incorretamente() throws Throwable {
+	public void preenchoCampoUsuarioIncorretamente() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
+	}
+
+	@When("^clico no botao logar com dados incorretos$")
+	public void clicoNoBotaoLogarComDadosIncorretos() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
 	}
 
 	@Then("^sistema exibe mensagem de username incorreto e login falha$")
-	public void sistema_exibe_mensagem_de_username_incorreto_e_login_falha() throws Throwable {
+	public void sistemaExibeMensagemDeUsernameIncorretoELoginFalha() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
 	}
 
 }
-
